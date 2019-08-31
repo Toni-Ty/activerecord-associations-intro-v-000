@@ -1,5 +1,5 @@
 class CreateSongs < ActiveRecord::Migration[4.2]
-  def change 
+  def change
     create_table :songs |t|
     t.string :name
     t.integer :artist_id
@@ -7,4 +7,3 @@ class CreateSongs < ActiveRecord::Migration[4.2]
     end
   end
 end
-
